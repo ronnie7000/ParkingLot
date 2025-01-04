@@ -3,17 +3,17 @@ package src.model;
 import java.time.LocalDateTime;
 
 public class Invoice {
-    long id;
+    int id;
     String invoiceNumber;
     LocalDateTime exitTime;
     ParkingTicket parkingTicket;
     double amount;
     Payment payment;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
     public String getInvoiceNumber() {

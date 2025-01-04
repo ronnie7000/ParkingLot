@@ -4,15 +4,15 @@ import src.model.enums.ParkingSpotStatus;
 import src.model.enums.ParkingSpotType;
 
 public class ParkingSpot {
-    long id;
+    int id;
     int spotNumber;
     ParkingSpotType parkingSpotType;
     ParkingSpotStatus parkingSpotStatus;
     
-    public long getId() {
+    public int getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
     public int getSpotNumber() {

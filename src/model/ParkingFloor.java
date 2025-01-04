@@ -3,14 +3,14 @@ package src.model;
 import java.util.List;
 
 public class ParkingFloor {
-    long id;
+    int id;
     int floorNumber;
     List<ParkingSpot> parkingSpots;
     
-    public long getId() {
+    public int getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
     public int getFloorNumber() {

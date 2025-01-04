@@ -3,14 +3,14 @@ package src.model;
 import src.model.enums.VehicleType;
 
 public class Vehicle {
-    long id;
+    int id;
     String licensePlate;
     VehicleType vehicleType;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
     public String getLicensePlate() {

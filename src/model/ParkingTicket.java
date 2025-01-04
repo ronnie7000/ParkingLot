@@ -3,7 +3,7 @@ package src.model;
 import java.time.LocalDateTime;
 
 public class ParkingTicket {
-    long id;
+    int id;
     String ticketNumber;
     ParkingSpot parkingSpot;
     LocalDateTime entryTime;
@@ -11,10 +11,10 @@ public class ParkingTicket {
     ParkingGate parkingGate;
     ParkingAttendant parkingAttendant;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
     public String getTicketNumber() {
