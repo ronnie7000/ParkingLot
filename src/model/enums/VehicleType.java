@@ -1,5 +1,5 @@
 package src.model.enums;
 
 public enum VehicleType {
-    CAR, SCOOTER, TRUCK, BUS, BIKE;
+    FOUR_WHEELER, TWO_WHEELER;
 }

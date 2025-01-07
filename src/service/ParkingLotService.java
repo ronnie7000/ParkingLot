@@ -3,7 +3,6 @@ package src.service;
 import src.model.ParkingFloor;
 import src.model.ParkingGate;
 import src.model.ParkingLot;
-import src.model.ParkingSpot;
 import src.model.enums.ParkingGateType;
 import src.model.enums.ParkingSpotType;
 import src.model.enums.VehicleType;
@@ -44,7 +43,7 @@ public class ParkingLotService {
                     i + 1,
                     spotPerFloor,
                     ParkingSpotType.NORMAL,
-                    VehicleType.CAR
+                    VehicleType.FOUR_WHEELER
             ));
         }
 

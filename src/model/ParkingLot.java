@@ -8,6 +8,8 @@ public class ParkingLot {
     String address;
     List<ParkingFloor> parkingFloors;
     List<ParkingGate> parkingGates;
+    int totalSlotsCount;
+    int occupiedSlotsCount;
 
     public int getId() {
         return id;
@@ -38,5 +40,17 @@ public class ParkingLot {
     }
     public void setParkingGates(List<ParkingGate> parkingGates) {
         this.parkingGates = parkingGates;
-    }    
+    }
+    public int getTotalSlotsCount() {
+        return totalSlotsCount;
+    }
+    public void setTotalSlotsCount(int totalSlotsCount) {
+        this.totalSlotsCount = totalSlotsCount;
+    }
+    public int getOccupiedSlotsCount() {
+        return occupiedSlotsCount;
+    }
+    public void setOccupiedSlotsCount(int occupiedSlotsCount) {
+        this.occupiedSlotsCount = occupiedSlotsCount;
+    }
 }
